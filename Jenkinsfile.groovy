@@ -4,7 +4,7 @@ import groovy.json.JsonSlurperClassic
 node {
     env.AWS_DEFAULT_REGION = 'ap-southeast-1'
 	
-	def applicationName = 'amelia-app'
+	def applicationName = 'hendrawan-app'
 	def deploymentGroupName = 'amelia-app-group' // change me
 	def s3BucketName = 'deployment-cdc'
 	
